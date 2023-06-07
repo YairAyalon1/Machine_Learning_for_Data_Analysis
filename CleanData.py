@@ -16,8 +16,7 @@ for i in range(len(filename)):
 filename = filename[0: index]
 
 # Read the raw data from the Excel file
-df_raw = pd.read_excel('C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/DataSets/Processed/{}.xlsx'
-                       .format(filename))
+df_raw = pd.read_excel('FILEֹֹPATH/{}.xlsx'.format(filename)) ֳ# Enter the file path
 print("1. The size of the raw data set is: {}".format(df_raw.shape))
 
 
