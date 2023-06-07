@@ -22,7 +22,7 @@ DifferentialPressure2 = []
 FlowRate1 = []
 FlowRate2 = []
 
-with open("C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/DataSets/Raw/{}".format(filename), "r")\
+with open("FILEPATH/{}".format(filename), "r")\    # Enter the file path
         as f:
     lines = f.readlines()
 
