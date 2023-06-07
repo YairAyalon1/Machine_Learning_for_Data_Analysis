@@ -20,8 +20,7 @@ for i in range(len(filename)):
 filenameNew = "{}_Cleaned.xlsx".format(filename[0: index])
 
 # Get the variables from the Excel file
-df = pd.read_excel('C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/DataSets/Processed/{}'
-                        .format(filenameNew))
+df = pd.read_excel('FILEPATH/{}'.format(filenameNew))     # Enter the file path
 Temp1 = df['Temperature 1'].tolist()
 Temp2 = df['Temperature 2'].tolist()
 Temp3 = df['Temperature 3'].tolist()
