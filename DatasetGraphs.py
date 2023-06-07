@@ -16,9 +16,9 @@ for i in range(len(filename)):
 filename1 = "{}_Cleaned.xlsx".format(filename[0: index])
 filename2 = "{}_Simulator.xlsx".format(filename1[0: index])
 
-# Replace 'file_path' with the path to your Excel file
-file_path1 = 'C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/DataSets/Processed/{}'.format(filename1)
-file_path2 = 'C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/DataSets/Simulator/{}'.format(filename2)
+# Replace 'file_path' with the path to your Excel file 
+file_path1 = 'FILEֹֹPATH/{}'.format(filename1) # Enter the file path
+file_path2 = 'FILEֹֹPATH/{}'.format(filename2) # Enter the file path
 
 # Replace 'sheet_name' with the name of the sheet containing your data
 sheet_name = 'Sheet1'
