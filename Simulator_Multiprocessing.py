@@ -49,8 +49,7 @@ def main():
     filenameNew = "{}_Cleaned.xlsx".format(filename[0: index])
 
     # Get the variables from the Excel file
-    df = pd.read_excel('C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/DataSets/Processed/{}'
-                       .format(filenameNew))
+    df = pd.read_excel('FILEPATH/{}'.format(filenameNew))     # Enter the file path
 
     variables = [
         'Temperature 1', 'Temperature 2', 'Temperature 3', 'Temperature 4',
