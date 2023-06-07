@@ -14,8 +14,7 @@ for i in range(len(filename)):
         index = i
 filename = "{}_Cleaned.xlsx".format(filename[0: index])
 cleaned_data = df_cleaned
-cleaned_data.to_excel('C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/DataSets/Processed/{}'
-                      .format(filename), index=False)
+cleaned_data.to_excel('FILEPATH/{}'.format(filename), index=False)       # Enter the filepath
 print("1. A file named {}.xlsx has been created".format(filename))
 print("2. Writing data to the file")
 print(" The cleaned data has been written to an Excel file Successfully !")
