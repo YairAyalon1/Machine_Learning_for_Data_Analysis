@@ -23,8 +23,7 @@ if os.path.isfile('C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForTh
 else:
 
     # Create an Excel file
-    OutWorkbook = xlsxwriter.Workbook('C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/'
-                                      'DataSets/Processed/{}.xlsx'.format(filenameNew))
+    OutWorkbook = xlsxwriter.Workbook('FILEPATH/{}.xlsx'.format(filenameNew))        # Enter the file path
     OutSheet = OutWorkbook.add_worksheet()
     print("---------------------------------------------------")
     print("1. A file named {}.xlsx has been created".format(filenameNew))
