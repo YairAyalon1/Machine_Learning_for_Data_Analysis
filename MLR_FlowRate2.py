@@ -21,8 +21,7 @@ for i in range(len(filename)):
 filenameNew = "{}_Cleaned.xlsx".format(filename[0: index])
 
 # Read the data from the Excel file
-data_df = pd.read_excel(r'C:/Users/ayaya/Desktop/Yair/University/Thesis/PythonCodeForThesis/DataSets/Processed/{}'
-                        .format(filenameNew))
+data_df = pd.read_excel(r'FILEPATH/{}'.format(filenameNew)) # Enter the file path
 # print(data_df.head())
 
 # Define the parameters y & x for the machine learning model
